@@ -55,10 +55,10 @@ scratch and include it.\n\n")
 # your config/quick_search_config.yml file as well as references to them in your theme's search
 # results page template
 
-gem 'quick_search-wikipedia_searcher'
-gem 'quick_search-open_library_searcher'
-gem 'quick_search-arxiv_searcher'
-gem 'quick_search-placeholder_searcher'
+gem 'quick_search-wikipedia_searcher', :git => 'https://github.com/samirlalvani/quick_search-wikipedia_searcher.git'
+gem 'quick_search-open_library_searcher', :git => 'https://github.com/samirlalvani/quick_search-open_library_searcher.git'
+gem 'quick_search-arxiv_searcher', :git => 'https://github.com/samirlalvani/quick_search-arxiv_searcher.git'
+gem 'quick_search-placeholder_searcher', :git => 'https://github.com/samirlalvani/quick_search-placeholder_searcher.git'
 
 # -END Inserted by QuickSearch-
 
